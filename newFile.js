@@ -195,7 +195,7 @@ function Mail(token, Mailid) {
   // const link = `https://pass-res-fl.netlify.app/forgotpassword/verify/${token}`;
 
   // Deployed URL -Heroku
-  const link = ` https://react-password-reset-flow.herokuapp.com/forgotpassword/verify/${token}`;
+  const link = `- https://react-password-reset-flow.herokuapp.com/forgotpassword/verify/${token}`;
 
   // Local URL
   // const link = `http://localhost:3000/forgotpassword/verify/${token}`;

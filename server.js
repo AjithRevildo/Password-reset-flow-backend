@@ -8,7 +8,7 @@ dotenv.config()
 
 // PORT
 const PORT=process.env.PORT 
-// MONGODB URL
+
 const MONGO_URL=process.env.MONGO_URL 
 
 export const app=express();
@@ -36,7 +36,7 @@ async function createConnection()
     return client;
 }
 
-export const client=await createConnection();
+export const client=await createConnection(); 
 
 
 // PORT
